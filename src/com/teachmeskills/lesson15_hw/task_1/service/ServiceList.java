@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson15_hw.task_1;
+package com.teachmeskills.lesson15_hw.task_1.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Scanner;
 /**
  * This method takes a string from the user, converts it to a number and adds it to the collection, returns a collection of numbers
  */
-public class Task1 {
-    public static List<Integer> EvenNumbersCollectionInput(){
+public class ServiceList {
+    public static List<Integer> CreateNumbersCollection(){
         List<Integer> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
